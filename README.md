@@ -8,3 +8,8 @@ This benchmark measures the performance of reading environment variables in an A
 ```
 export VARIABLE_EXISTS=true && mvn package
 ```
+
+## How to deploy
+```
+export VARIABLE_EXISTS=true && mvn package && mvn azure-functions:deploy
+```
