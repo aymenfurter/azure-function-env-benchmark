@@ -33,9 +33,6 @@ public class Function {
         response.append(performLookupBenchmark(variableExisting));
         response.append(performLookupBenchmark(variableNotExisting));
 
-        context.getLogger().info(response.toString());
-        System.out.println(response);
-
         return request.createResponseBuilder(HttpStatus.OK).body(response).build();
     }
 
