@@ -12,3 +12,11 @@ export VARIABLE_EXISTS=true && mvn package
 ```
 export VARIABLE_EXISTS=true && mvn package && mvn azure-functions:deploy
 ```
+
+## Output
+```
+Performance Test for VARIABLE_EXISTS
+Duration: 265ms 
+Performance Test for VARIABLE_NOT_EXISTING
+Duration: 266ms 
+```
